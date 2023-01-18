@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'castlevania';
+            src: url('fonts/Berkahi Blackletter.otf') format('opentype'), url('fonts/Berkahi Blackletter.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            tipos de format()
+            - opentype (ott)
+            - truetype (ttf)
+            - embedded-opentype
+            - tuetype-aat(aple advanced typography)
+            - svg
+            */
+        }
+
+        body{
+            font-family: 'castlevania', sans-serif;
+        }
+
+        h1 {
+            font-family: 'castlevania', serif;
+            font-size: 5em;
+        }
+        p {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mário dos Santos Nobre</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae harum, pariatur quibusdam earum sed aut dolor distinctio voluptatem dolore dicta, necessitatibus nam nisi expedita. Aspernatur ad atque similique vel dolorem.</p>
+</body>
+</html>
