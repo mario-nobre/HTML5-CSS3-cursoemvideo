@@ -19,6 +19,13 @@ header {
     padding-bottom: 40px;
 }
 
+header > p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+
 section {
     padding: 40px 0px 40px 10px;
 }
@@ -60,17 +67,22 @@ h1 {
     font-weight: 500;
 }
 
-p {
+pre {
+    white-space: pre-line;
     font-family: 'Sriracha', cursive;
     font-size: 2.5vw;
-}
+ }
+ 
+ a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+ }
 
-header > p {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    padding-top: 10px;
-}
+ a:hover {
+    color: aqua;
+    text-decoration: underline;
+ }
 
 footer {
     background-color: black;
