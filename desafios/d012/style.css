@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section {
+    padding: 40px 0px 40px 10px;
+}
+
+section#part2 {
+    background-image: url(imagens/background001.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.700);
+    border: 1px solid rgba(0, 0, 0, 0.300);
+}
+
+section#part4 {
+    background-image: url(imagens/background002.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.700);
+    border: 1px solid rgba(0, 0, 0, 0.300);
+}
+
+div {
+    width: 40%;
+    padding: 20px;
+}
+
+div#div2 {
+    background-color: rgba(0, 0, 0, 0.364);
+    color: white;
+}
+
+div#div4 {
+    background-color: rgba(0, 0, 0, 0.364);
+    color: white;
+}
+
+h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 7vw;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Sriracha', cursive;
+    font-size: 2.5vw;
+}
+
+header > p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+footer > p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
