@@ -4,10 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
-    border: 0px;
+}
+
+html, body {
+    min-height: 100vh;
 }
 
 header {
@@ -15,8 +18,8 @@ header {
     color: white;
     width: 100%;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 header > p {
@@ -27,23 +30,23 @@ header > p {
 }
 
 section {
-    padding: 40px 0px 40px 10px;
+    padding: 10vh 0vh 10vh 30px;
+    line-height: 2em;
 }
 
-section#part2 {
+section.imagem {
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.700);
+    border: 1px solid rgba(0, 0, 0, 0.300);
+}
+
+section#flor {
     background-image: url(imagens/background001.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.700);
-    border: 1px solid rgba(0, 0, 0, 0.300);
 }
 
-section#part4 {
+section#livro {
     background-image: url(imagens/background002.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.700);
-    border: 1px solid rgba(0, 0, 0, 0.300);
 }
 
 div {
@@ -51,12 +54,7 @@ div {
     padding: 20px;
 }
 
-div#div2 {
-    background-color: rgba(0, 0, 0, 0.364);
-    color: white;
-}
-
-div#div4 {
+div.quadro {
     background-color: rgba(0, 0, 0, 0.364);
     color: white;
 }
