@@ -30,15 +30,16 @@ header > p {
 }
 
 section {
-    padding: 10vh 0vh 10vh 30px;
-    line-height: 2em;
+    padding: 10vh 0vh 10vh 30px; 
 }
 
 section.imagem {
-    background-size: 100% 100%;
+    background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.700);
     border: 1px solid rgba(0, 0, 0, 0.300);
+    text-shadow: 2px 1px 0px black;
 }
 
 section#flor {
@@ -50,7 +51,7 @@ section#livro {
 }
 
 div {
-    width: 40%;
+    width: 40vw;
     padding: 20px;
 }
 
@@ -69,6 +70,7 @@ pre {
     white-space: pre-line;
     font-family: 'Sriracha', cursive;
     font-size: 2.5vw;
+    line-height: 2em;
  }
  
  a {
