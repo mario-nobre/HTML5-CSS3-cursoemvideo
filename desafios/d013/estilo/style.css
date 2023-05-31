@@ -6,13 +6,30 @@
 }
 
 html, body {
-    background-color: rgb(60, 134, 49);
+    background-color: rgb(84, 182, 49);
     width: 100vw;
     height: 100vh;
     color: white;
 }
 
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
+main {
+    height: 100vh;
+    position: relative;
+}
+
+#celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background: url('../imagens/frame-iphone.png') no-repeat;
+    width: 311px;
+    height: 627px;
+}
