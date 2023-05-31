@@ -1,5 +1,35 @@
 @charset "utf-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
 body {
-    background-color: bisque;
+    background: url(/imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+#celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background: url(/imagens/frame-iphone.png) no-repeat;
+    width: 311px;
+    height: 627px;
+
 }
