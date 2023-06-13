@@ -1,3 +1,7 @@
 @charset "utf-8";
 
 /* aparelho deitado (landscape) */
+
+body {
+    background-color: orange;
+}

@@ -1,3 +1,7 @@
 @charset "utf-8";
 
 /* aparelho em pé (portrait) */
+
+body {
+    background-color: yellow;
+}
