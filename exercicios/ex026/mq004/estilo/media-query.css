@@ -26,6 +26,14 @@ grandes tela: acima de 1200px
 @media only screen and (min-width: 1200px) {...} */
 
 
+/* 2023
+375 × 667 (3,75%)
+360×640 (7,28%)
+414×896 (4,58%)
+1366 × 768 (8,44%)
+1536 × 864 (3,88%)
+1920×1080 (8,89%) */
+
 @media print {
     body {
         /* background-image: url(/imagens/back-print.jpg); desnecessario */
@@ -56,7 +64,7 @@ grandes tela: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: url(/imagens/back-tablet.jpg);
+        background-image: url(../imagens/back-tablet.jpg);
     }
 
     img#phone {display: none;}
@@ -66,9 +74,9 @@ grandes tela: acima de 1200px
     img#tv {display: none;}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1536px) {
     body {
-        background-image: url(/imagens/back-pc.jpg);
+        background-image: url(../imagens/back-pc.jpg);
     }
 
     img#phone {display: none;}
@@ -78,9 +86,9 @@ grandes tela: acima de 1200px
     img#tv {display: none;}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1537px) {
     body {
-        background-image: url(/imagens/back-tv.jpg);
+        background-image: url(../imagens/back-tv.jpg);
     }
 
     main {
