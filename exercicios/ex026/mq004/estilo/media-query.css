@@ -74,7 +74,7 @@ grandes tela: acima de 1200px
     img#tv {display: none;}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1536px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     body {
         background-image: url(../imagens/back-pc.jpg);
     }
@@ -86,7 +86,7 @@ grandes tela: acima de 1200px
     img#tv {display: none;}
 }
 
-@media screen and (min-width: 1537px) {
+@media screen and (min-width: 1200px) {
     body {
         background-image: url(../imagens/back-tv.jpg);
     }
